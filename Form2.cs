@@ -37,7 +37,21 @@ namespace FamilyFeud
             string textBox12Value = textBox12.Text; //9
             string textBox13Value = textBox13.Text; //10 
 
-            Form3 form3 = new Form3(textBox4Value, textBox5Value, textBox6Value, textBox7Value, textBox8Value, textBox9Value, textBox10Value, textBox11Value, textBox12Value, textBox13Value);
+            //Points
+            int textBox14Value = Convert.ToInt32(textBox14.Text);
+            int textBox15Value = Convert.ToInt32(textBox15.Text);
+            int textBox16Value = Convert.ToInt32(textBox16.Text);
+            int textBox17Value = Convert.ToInt32(textBox17.Text);
+            int textBox18Value = Convert.ToInt32(textBox18.Text);
+            int textBox19Value = Convert.ToInt32(textBox19.Text);
+            int textBox20Value = Convert.ToInt32(textBox20.Text);
+            int textBox21Value = Convert.ToInt32(textBox21.Text);
+            int textBox22Value = Convert.ToInt32(textBox22.Text);
+            int textBox23Value = Convert.ToInt32(textBox23.Text);
+
+
+            Form3 form3 = new Form3(textBox4Value, textBox5Value, textBox6Value, textBox7Value, textBox8Value, textBox9Value, textBox10Value, textBox11Value, textBox12Value, textBox13Value, textBox14Value, textBox15Value, textBox16Value, textBox17Value, textBox18Value, textBox19Value, textBox20Value, textBox21Value, textBox22Value, textBox23Value);
+
             form3.Show();
             form3.richTextBox2.Text = team1Name;
             form3.richTextBox3.Text = team2Name;

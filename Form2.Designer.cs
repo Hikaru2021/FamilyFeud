@@ -528,9 +528,7 @@
         private Label label14;
         private Label label15;
         public TextBox textBox1;
-        private TextBox textBox14;
         private TextBox textBox15;
-        private TextBox textBox16;
         private TextBox textBox17;
         private TextBox textBox18;
         private TextBox textBox19;
@@ -538,5 +536,7 @@
         private TextBox textBox21;
         private TextBox textBox22;
         private TextBox textBox23;
+        public TextBox textBox14;
+        public TextBox textBox16;
     }
 }
