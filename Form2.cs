@@ -53,6 +53,7 @@ namespace FamilyFeud
             Form3 form3 = new Form3(textBox4Value, textBox5Value, textBox6Value, textBox7Value, textBox8Value, textBox9Value, textBox10Value, textBox11Value, textBox12Value, textBox13Value, textBox14Value, textBox15Value, textBox16Value, textBox17Value, textBox18Value, textBox19Value, textBox20Value, textBox21Value, textBox22Value, textBox23Value);
 
             form3.Show();
+            this.Close();
             form3.richTextBox2.Text = team1Name;
             form3.richTextBox3.Text = team2Name;
             form3.richTextBox1.Text = question;
