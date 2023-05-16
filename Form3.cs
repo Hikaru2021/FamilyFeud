@@ -140,5 +140,117 @@ namespace FamilyFeud
             button1.Text = Convert.ToString(team1Score);
             button2.Text = Convert.ToString(team2Score);
         }
+
+        private void button5_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                team1Score += 10;
+            }
+            else
+            {
+                team2Score += 10;
+            }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
+        }
+
+        private void button6_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                team1Score += 10;
+            }
+            else
+            {
+                team2Score += 10;
+            }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
+        }
+
+        private void button7_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                team1Score += 10;
+            }
+            else
+            {
+                team2Score += 10;
+            }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
+        }
+
+        private void button12_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                team1Score += 10;
+            }
+            else
+            {
+                team2Score += 10;
+            }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
+        }
+
+        private void button11_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                team1Score += 10;
+            }
+            else
+            {
+                team2Score += 10;
+            }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
+        }
+
+        private void button10_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                team1Score += 10;
+            }
+            else
+            {
+                team2Score += 10;
+            }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
+        }
+
+        private void button9_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                team1Score += 10;
+            }
+            else
+            {
+                team2Score += 10;
+            }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
+        }
+
+        private void button8_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                team1Score += 10;
+            }
+            else
+            {
+                team2Score += 10;
+            }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
+        }
     }
 }

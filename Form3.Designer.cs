@@ -185,6 +185,7 @@
             button5.Text = "3";
             button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
+            button5.MouseDown += button5_MouseDown;
             // 
             // button6
             // 
@@ -198,6 +199,7 @@
             button6.Text = "4";
             button6.UseVisualStyleBackColor = false;
             button6.Click += button6_Click;
+            button6.MouseDown += button6_MouseDown;
             // 
             // button7
             // 
@@ -211,6 +213,7 @@
             button7.Text = "5";
             button7.UseVisualStyleBackColor = false;
             button7.Click += button7_Click;
+            button7.MouseDown += button7_MouseDown;
             // 
             // button8
             // 
@@ -224,6 +227,7 @@
             button8.Text = "10";
             button8.UseVisualStyleBackColor = false;
             button8.Click += button8_Click;
+            button8.MouseDown += button8_MouseDown;
             // 
             // button9
             // 
@@ -237,6 +241,7 @@
             button9.Text = "9";
             button9.UseVisualStyleBackColor = false;
             button9.Click += button9_Click;
+            button9.MouseDown += button9_MouseDown;
             // 
             // button10
             // 
@@ -250,6 +255,7 @@
             button10.Text = "8";
             button10.UseVisualStyleBackColor = false;
             button10.Click += button10_Click;
+            button10.MouseDown += button10_MouseDown;
             // 
             // button11
             // 
@@ -263,6 +269,7 @@
             button11.Text = "7";
             button11.UseVisualStyleBackColor = false;
             button11.Click += button11_Click;
+            button11.MouseDown += button11_MouseDown;
             // 
             // button12
             // 
@@ -276,6 +283,7 @@
             button12.Text = "6";
             button12.UseVisualStyleBackColor = false;
             button12.Click += button12_Click;
+            button12.MouseDown += button12_MouseDown;
             // 
             // richTextBox1
             // 
