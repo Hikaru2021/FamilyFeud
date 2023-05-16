@@ -23,21 +23,21 @@ namespace FamilyFeud
         string top8;
         string top9;
         string top10;
-        int point1;
-        int point2;
-        int point3;
-        int point4;
-        int point5;
-        int point6;
-        int point7;
-        int point8;
-        int point9;
-        int point10;
+        int? point1;
+        int? point2;
+        int? point3;
+        int? point4;
+        int? point5;
+        int? point6;
+        int? point7;
+        int? point8;
+        int? point9;
+        int? point10;
         int team1Score = 0;
         int team2Score = 0;
         int flagInterchange = 1;
 
-        public Form3(string top1, string top2, string top3, string top4, string top5, string top6, string top7, string top8, string top9, string top10, int point1, int point2, int point3, int point4, int point5, int point6, int point7, int point8, int point9, int point10)
+        public Form3(string top1, string top2, string top3, string top4, string top5, string top6, string top7, string top8, string top9, string top10, int? point1, int? point2, int? point3, int? point4, int? point5, int? point6, int? point7, int? point8, int? point9, int? point10)
         {
             this.top1 = top1;
             this.top2 = top2;
@@ -85,7 +85,7 @@ namespace FamilyFeud
 
         private void button3_Click(object sender, EventArgs e)
         {
-                button3.Text = top1;   
+            button3.Text = top1;
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -137,11 +137,11 @@ namespace FamilyFeud
         {
             if (e.Button == MouseButtons.Left)
             {
-                team1Score += this.point1;
+                team1Score += this.point1.Value;
             }
             else
             {
-                team2Score += this.point1;
+                team2Score += this.point1.Value;
             }
             button1.Text = Convert.ToString(team1Score);
             button2.Text = Convert.ToString(team2Score);
@@ -154,11 +154,11 @@ namespace FamilyFeud
         {
             if (e.Button == MouseButtons.Left)
             {
-                team1Score += this.point2;
+                team1Score += this.point2.Value;
             }
             else
             {
-                team2Score += this.point2;
+                team2Score += this.point2.Value;
             }
             button1.Text = Convert.ToString(team1Score);
             button2.Text = Convert.ToString(team2Score);
@@ -170,11 +170,11 @@ namespace FamilyFeud
         {
             if (e.Button == MouseButtons.Left)
             {
-                team1Score += this.point3;
+                team1Score += this.point3.Value;
             }
             else
             {
-                team2Score += this.point3;
+                team2Score += this.point3.Value;
             }
             button1.Text = Convert.ToString(team1Score);
             button2.Text = Convert.ToString(team2Score);
@@ -186,11 +186,11 @@ namespace FamilyFeud
         {
             if (e.Button == MouseButtons.Left)
             {
-                team1Score += this.point4;
+                team1Score += this.point4.Value;
             }
             else
             {
-                team2Score += this.point4;
+                team2Score += this.point4.Value;
             }
             button1.Text = Convert.ToString(team1Score);
             button2.Text = Convert.ToString(team2Score);
@@ -202,11 +202,11 @@ namespace FamilyFeud
         {
             if (e.Button == MouseButtons.Left)
             {
-                team1Score += this.point5;
+                team1Score += this.point5.Value;
             }
             else
             {
-                team2Score += this.point5;
+                team2Score += this.point5.Value;
             }
             button1.Text = Convert.ToString(team1Score);
             button2.Text = Convert.ToString(team2Score);
@@ -218,11 +218,11 @@ namespace FamilyFeud
         {
             if (e.Button == MouseButtons.Left)
             {
-                team1Score += this.point6;
+                team1Score += this.point6.Value;
             }
             else
             {
-                team2Score += this.point6;
+                team2Score += this.point6.Value;
             }
             button1.Text = Convert.ToString(team1Score);
             button2.Text = Convert.ToString(team2Score);
@@ -234,11 +234,11 @@ namespace FamilyFeud
         {
             if (e.Button == MouseButtons.Left)
             {
-                team1Score += this.point7;
+                team1Score += this.point7.Value;
             }
             else
             {
-                team2Score += this.point7;
+                team2Score += this.point7.Value;
             }
             button1.Text = Convert.ToString(team1Score);
             button2.Text = Convert.ToString(team2Score);
@@ -250,11 +250,11 @@ namespace FamilyFeud
         {
             if (e.Button == MouseButtons.Left)
             {
-                team1Score += this.point8;
+                team1Score += this.point8.Value;
             }
             else
             {
-                team2Score += this.point8;
+                team2Score += this.point8.Value;
             }
             button1.Text = Convert.ToString(team1Score);
             button2.Text = Convert.ToString(team2Score);
@@ -266,11 +266,11 @@ namespace FamilyFeud
         {
             if (e.Button == MouseButtons.Left)
             {
-                team1Score += this.point9;
+                team1Score += this.point9.Value;
             }
             else
             {
-                team2Score += this.point9;
+                team2Score += this.point9.Value;
             }
             button1.Text = Convert.ToString(team1Score);
             button2.Text = Convert.ToString(team2Score);
@@ -282,11 +282,11 @@ namespace FamilyFeud
         {
             if (e.Button == MouseButtons.Left)
             {
-                team1Score += this.point10;
+                team1Score += this.point10.Value;
             }
             else
             {
-                team2Score += this.point10;
+                team2Score += this.point10.Value;
             }
             button1.Text = Convert.ToString(team1Score);
             button2.Text = Convert.ToString(team2Score);
@@ -294,5 +294,34 @@ namespace FamilyFeud
                 button8.Text = top10;
         }
 
+        private void label4_Click(object sender, EventArgs e)
+        {
+            label4.ForeColor = Color.Red;
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            label5.ForeColor = Color.Red;
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            label6.ForeColor = Color.Red;
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            label7.ForeColor = Color.Red;
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            label8.ForeColor = Color.Red;
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            label9.ForeColor = Color.Red;
+        }
     }
 }

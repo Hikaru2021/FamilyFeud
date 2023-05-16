@@ -63,6 +63,7 @@
             label4.Size = new Size(119, 116);
             label4.TabIndex = 3;
             label4.Text = "X";
+            label4.Click += label4_Click;
             // 
             // label5
             // 
@@ -75,6 +76,7 @@
             label5.Size = new Size(119, 116);
             label5.TabIndex = 4;
             label5.Text = "X";
+            label5.Click += label5_Click;
             // 
             // label6
             // 
@@ -87,6 +89,7 @@
             label6.Size = new Size(119, 116);
             label6.TabIndex = 5;
             label6.Text = "X";
+            label6.Click += label6_Click;
             // 
             // label7
             // 
@@ -99,6 +102,7 @@
             label7.Size = new Size(119, 116);
             label7.TabIndex = 6;
             label7.Text = "X";
+            label7.Click += label7_Click;
             // 
             // label8
             // 
@@ -111,6 +115,7 @@
             label8.Size = new Size(119, 116);
             label8.TabIndex = 7;
             label8.Text = "X";
+            label8.Click += label8_Click;
             // 
             // label9
             // 
@@ -123,6 +128,7 @@
             label9.Size = new Size(119, 116);
             label9.TabIndex = 8;
             label9.Text = "X";
+            label9.Click += label9_Click;
             // 
             // button1
             // 
