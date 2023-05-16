@@ -13,9 +13,6 @@ namespace FamilyFeud
 {
     public partial class Form3 : Form
     {
-        string team1;
-        string team2;
-        string question;
         string top1;
         string top2;
         string top3;
@@ -30,11 +27,8 @@ namespace FamilyFeud
         int team2Score = 0;
         int flagInterchange = 1;
 
-        public Form3(string team1, string team2, string question, string top1, string top2, string top3, string top4, string top5, string top6, string top7, string top8, string top9, string top10)
+        public Form3(string top1, string top2, string top3, string top4, string top5, string top6, string top7, string top8, string top9, string top10)
         {
-            this.team1 = team1;
-            this.team2 = team2;
-            this.question = question;
             this.top1 = top1;
             this.top2 = top2;
             this.top3 = top3;
@@ -45,9 +39,6 @@ namespace FamilyFeud
             this.top8 = top8;
             this.top9 = top9;
             this.top10 = top10;
-            richTextBox2.Text = this.team1;
-            richTextBox3.Text = this.team2;
-            richTextBox1.Text = this.question;
 
         }
 
