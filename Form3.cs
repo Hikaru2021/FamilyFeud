@@ -39,6 +39,7 @@ namespace FamilyFeud
             this.top8 = top8;
             this.top9 = top9;
             this.top10 = top10;
+
             InitializeComponent();
 
         }
