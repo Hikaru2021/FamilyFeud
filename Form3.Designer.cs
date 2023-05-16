@@ -350,6 +350,7 @@
             DoubleBuffered = true;
             Name = "Form3";
             Text = "Form3";
+            Load += Form3_Load;
             KeyDown += Form3_KeyDown;
             ResumeLayout(false);
             PerformLayout();

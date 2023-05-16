@@ -343,5 +343,12 @@ namespace FamilyFeud
         {
             label9.ForeColor = Color.Red;
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            richTextBox1.SelectionAlignment = HorizontalAlignment.Center; // Justify center
+            richTextBox2.SelectionAlignment = HorizontalAlignment.Center; // Justify center
+            richTextBox3.SelectionAlignment = HorizontalAlignment.Center; // Justify center
+        }
     }
 }
