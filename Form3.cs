@@ -71,9 +71,75 @@ namespace FamilyFeud
         private void button3_Click(object sender, EventArgs e)
         {
             button3.Text = top1;
-            if(flagInterchange % 2 == 0)
+            if (flagInterchange % 2 == 0)
             {
-                team1Score+=
+                team1Score += 10;
+                flagInterchange++;
+            }
+            else
+            {
+                team2Score += 10;
+                flagInterchange++;
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            button4.Text = top2;
+            if (flagInterchange % 2 == 0)
+            {
+                team1Score += 9;
+                flagInterchange++;
+            }
+            else
+            {
+                team2Score += 9;
+                flagInterchange++;
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            button5.Text = top3;
+            if (flagInterchange % 2 == 0)
+            {
+                team1Score += 8;
+                flagInterchange++;
+            }
+            else
+            {
+                team2Score += 8;
+                flagInterchange++;
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            button6.Text = top4;
+            if (flagInterchange % 2 == 0)
+            {
+                team1Score += 8;
+                flagInterchange++;
+            }
+            else
+            {
+                team2Score += 8;
+                flagInterchange++;
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            button7.Text = top5;
+            if (flagInterchange % 2 == 0)
+            {
+                team1Score += 7;
+                flagInterchange++;
+            }
+            else
+            {
+                team2Score += 7;
+                flagInterchange++;
             }
         }
     }
