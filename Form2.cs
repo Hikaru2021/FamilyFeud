@@ -37,8 +37,11 @@ namespace FamilyFeud
             string textBox12Value = textBox12.Text; //9
             string textBox13Value = textBox13.Text; //10 
 
-            Form3 form3 = new Form3(team1Name, team2Name, question, textBox4Value, textBox5Value, textBox6Value, textBox7Value, textBox8Value, textBox9Value, textBox10Value, textBox11Value, textBox12Value, textBox13Value);
+            Form3 form3 = new Form3(textBox4Value, textBox5Value, textBox6Value, textBox7Value, textBox8Value, textBox9Value, textBox10Value, textBox11Value, textBox12Value, textBox13Value);
             form3.Show();
+            form3.richTextBox2.Text = team1Name;
+            form3.richTextBox3.Text = team2Name;
+            form3.richTextBox1.Text = question;
         }
     }
 }
