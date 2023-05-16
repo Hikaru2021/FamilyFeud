@@ -39,7 +39,6 @@ namespace FamilyFeud
             this.top8 = top8;
             this.top9 = top9;
             this.top10 = top10;
-
             InitializeComponent();
 
         }
@@ -71,12 +70,15 @@ namespace FamilyFeud
             {
                 team1Score += 10;
                 flagInterchange++;
+
             }
             else
             {
                 team2Score += 10;
                 flagInterchange++;
             }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -92,6 +94,8 @@ namespace FamilyFeud
                 team2Score += 9;
                 flagInterchange++;
             }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -107,6 +111,8 @@ namespace FamilyFeud
                 team2Score += 8;
                 flagInterchange++;
             }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -122,6 +128,8 @@ namespace FamilyFeud
                 team2Score += 8;
                 flagInterchange++;
             }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -137,6 +145,8 @@ namespace FamilyFeud
                 team2Score += 7;
                 flagInterchange++;
             }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button12_Click(object sender, EventArgs e)
@@ -152,6 +162,8 @@ namespace FamilyFeud
                 team2Score += 6;
                 flagInterchange++;
             }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -167,6 +179,8 @@ namespace FamilyFeud
                 team2Score += 5;
                 flagInterchange++;
             }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button10_Click(object sender, EventArgs e)
@@ -182,6 +196,8 @@ namespace FamilyFeud
                 team2Score += 4;
                 flagInterchange++;
             }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -197,6 +213,8 @@ namespace FamilyFeud
                 team2Score += 3;
                 flagInterchange++;
             }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -212,6 +230,22 @@ namespace FamilyFeud
                 team2Score += 2;
                 flagInterchange++;
             }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
+        }
+
+        private void button3_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                team1Score += 10;
+            }
+            else
+            {
+                team2Score += 10;
+            }
+            button1.Text = Convert.ToString(team1Score);
+            button2.Text = Convert.ToString(team2Score);
         }
     }
 }

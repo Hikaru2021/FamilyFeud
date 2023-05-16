@@ -157,6 +157,7 @@
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             button3.KeyDown += button3_KeyDown;
+            button3.MouseDown += button3_MouseDown;
             // 
             // button4
             // 
