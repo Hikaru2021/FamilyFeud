@@ -71,7 +71,10 @@ namespace FamilyFeud
         private void button3_Click(object sender, EventArgs e)
         {
             button3.Text = top1;
-            button4.Text = top2;
+            if(flagInterchange % 2 == 0)
+            {
+                team1Score+=
+            }
         }
     }
 }

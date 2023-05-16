@@ -58,6 +58,16 @@
             label13 = new Label();
             label14 = new Label();
             label15 = new Label();
+            textBox14 = new TextBox();
+            textBox15 = new TextBox();
+            textBox16 = new TextBox();
+            textBox17 = new TextBox();
+            textBox18 = new TextBox();
+            textBox19 = new TextBox();
+            textBox20 = new TextBox();
+            textBox21 = new TextBox();
+            textBox22 = new TextBox();
+            textBox23 = new TextBox();
             SuspendLayout();
             // 
             // textBox1
@@ -89,7 +99,7 @@
             textBox4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             textBox4.Location = new Point(628, 304);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(328, 47);
+            textBox4.Size = new Size(177, 47);
             textBox4.TabIndex = 3;
             // 
             // textBox5
@@ -97,7 +107,7 @@
             textBox5.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             textBox5.Location = new Point(1012, 304);
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(328, 47);
+            textBox5.Size = new Size(179, 47);
             textBox5.TabIndex = 4;
             // 
             // textBox6
@@ -105,7 +115,7 @@
             textBox6.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             textBox6.Location = new Point(628, 393);
             textBox6.Name = "textBox6";
-            textBox6.Size = new Size(328, 47);
+            textBox6.Size = new Size(177, 47);
             textBox6.TabIndex = 5;
             // 
             // textBox7
@@ -113,7 +123,7 @@
             textBox7.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             textBox7.Location = new Point(1012, 393);
             textBox7.Name = "textBox7";
-            textBox7.Size = new Size(328, 47);
+            textBox7.Size = new Size(179, 47);
             textBox7.TabIndex = 6;
             // 
             // textBox8
@@ -121,7 +131,7 @@
             textBox8.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             textBox8.Location = new Point(628, 487);
             textBox8.Name = "textBox8";
-            textBox8.Size = new Size(328, 47);
+            textBox8.Size = new Size(177, 47);
             textBox8.TabIndex = 7;
             // 
             // textBox9
@@ -129,7 +139,7 @@
             textBox9.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             textBox9.Location = new Point(1012, 487);
             textBox9.Name = "textBox9";
-            textBox9.Size = new Size(328, 47);
+            textBox9.Size = new Size(179, 47);
             textBox9.TabIndex = 8;
             // 
             // textBox10
@@ -137,7 +147,7 @@
             textBox10.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             textBox10.Location = new Point(628, 583);
             textBox10.Name = "textBox10";
-            textBox10.Size = new Size(328, 47);
+            textBox10.Size = new Size(177, 47);
             textBox10.TabIndex = 9;
             // 
             // textBox11
@@ -145,7 +155,7 @@
             textBox11.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             textBox11.Location = new Point(1012, 583);
             textBox11.Name = "textBox11";
-            textBox11.Size = new Size(328, 47);
+            textBox11.Size = new Size(179, 47);
             textBox11.TabIndex = 10;
             // 
             // textBox12
@@ -153,7 +163,7 @@
             textBox12.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             textBox12.Location = new Point(628, 672);
             textBox12.Name = "textBox12";
-            textBox12.Size = new Size(328, 47);
+            textBox12.Size = new Size(177, 47);
             textBox12.TabIndex = 11;
             // 
             // textBox13
@@ -161,7 +171,7 @@
             textBox13.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             textBox13.Location = new Point(1012, 672);
             textBox13.Name = "textBox13";
-            textBox13.Size = new Size(328, 47);
+            textBox13.Size = new Size(179, 47);
             textBox13.TabIndex = 12;
             // 
             // button1
@@ -355,6 +365,86 @@
             label15.TabIndex = 28;
             label15.Text = "#10";
             // 
+            // textBox14
+            // 
+            textBox14.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox14.Location = new Point(829, 304);
+            textBox14.Name = "textBox14";
+            textBox14.Size = new Size(94, 47);
+            textBox14.TabIndex = 29;
+            // 
+            // textBox15
+            // 
+            textBox15.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox15.Location = new Point(1230, 304);
+            textBox15.Name = "textBox15";
+            textBox15.Size = new Size(94, 47);
+            textBox15.TabIndex = 30;
+            // 
+            // textBox16
+            // 
+            textBox16.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox16.Location = new Point(829, 393);
+            textBox16.Name = "textBox16";
+            textBox16.Size = new Size(94, 47);
+            textBox16.TabIndex = 31;
+            // 
+            // textBox17
+            // 
+            textBox17.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox17.Location = new Point(1230, 393);
+            textBox17.Name = "textBox17";
+            textBox17.Size = new Size(94, 47);
+            textBox17.TabIndex = 32;
+            // 
+            // textBox18
+            // 
+            textBox18.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox18.Location = new Point(829, 487);
+            textBox18.Name = "textBox18";
+            textBox18.Size = new Size(94, 47);
+            textBox18.TabIndex = 33;
+            // 
+            // textBox19
+            // 
+            textBox19.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox19.Location = new Point(1230, 487);
+            textBox19.Name = "textBox19";
+            textBox19.Size = new Size(94, 47);
+            textBox19.TabIndex = 34;
+            // 
+            // textBox20
+            // 
+            textBox20.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox20.Location = new Point(829, 583);
+            textBox20.Name = "textBox20";
+            textBox20.Size = new Size(94, 47);
+            textBox20.TabIndex = 35;
+            // 
+            // textBox21
+            // 
+            textBox21.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox21.Location = new Point(1230, 583);
+            textBox21.Name = "textBox21";
+            textBox21.Size = new Size(94, 47);
+            textBox21.TabIndex = 36;
+            // 
+            // textBox22
+            // 
+            textBox22.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox22.Location = new Point(829, 672);
+            textBox22.Name = "textBox22";
+            textBox22.Size = new Size(94, 47);
+            textBox22.TabIndex = 37;
+            // 
+            // textBox23
+            // 
+            textBox23.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox23.Location = new Point(1230, 672);
+            textBox23.Name = "textBox23";
+            textBox23.Size = new Size(94, 47);
+            textBox23.TabIndex = 38;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -362,6 +452,16 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1352, 747);
+            Controls.Add(textBox23);
+            Controls.Add(textBox22);
+            Controls.Add(textBox21);
+            Controls.Add(textBox20);
+            Controls.Add(textBox19);
+            Controls.Add(textBox18);
+            Controls.Add(textBox17);
+            Controls.Add(textBox16);
+            Controls.Add(textBox15);
+            Controls.Add(textBox14);
             Controls.Add(label15);
             Controls.Add(label14);
             Controls.Add(label13);
@@ -428,5 +528,15 @@
         private Label label14;
         private Label label15;
         public TextBox textBox1;
+        private TextBox textBox14;
+        private TextBox textBox15;
+        private TextBox textBox16;
+        private TextBox textBox17;
+        private TextBox textBox18;
+        private TextBox textBox19;
+        private TextBox textBox20;
+        private TextBox textBox21;
+        private TextBox textBox22;
+        private TextBox textBox23;
     }
 }
