@@ -148,6 +148,8 @@ namespace FamilyFeud
 
             if (e.Button == MouseButtons.Right)
                 button3.Text = top1;
+
+            button3.BackColor = Color.White;
         }
 
         private void button4_MouseDown(object sender, MouseEventArgs e)
@@ -164,6 +166,8 @@ namespace FamilyFeud
             button2.Text = Convert.ToString(team2Score);
             if (e.Button == MouseButtons.Right)
                 button4.Text = top2;
+
+            button4.BackColor = Color.White;
         }
 
         private void button5_MouseDown(object sender, MouseEventArgs e)
@@ -180,6 +184,8 @@ namespace FamilyFeud
             button2.Text = Convert.ToString(team2Score);
             if (e.Button == MouseButtons.Right)
                 button5.Text = top3;
+
+            button5.BackColor = Color.White;
         }
 
         private void button6_MouseDown(object sender, MouseEventArgs e)
@@ -196,6 +202,8 @@ namespace FamilyFeud
             button2.Text = Convert.ToString(team2Score);
             if (e.Button == MouseButtons.Right)
                 button6.Text = top4;
+
+            button6.BackColor = Color.White;
         }
 
         private void button7_MouseDown(object sender, MouseEventArgs e)
@@ -212,6 +220,8 @@ namespace FamilyFeud
             button2.Text = Convert.ToString(team2Score);
             if (e.Button == MouseButtons.Right)
                 button7.Text = top5;
+
+            button7.BackColor = Color.White;
         }
 
         private void button12_MouseDown(object sender, MouseEventArgs e)
@@ -228,6 +238,8 @@ namespace FamilyFeud
             button2.Text = Convert.ToString(team2Score);
             if (e.Button == MouseButtons.Right)
                 button12.Text = top6;
+
+            button12.BackColor = Color.White;
         }
 
         private void button11_MouseDown(object sender, MouseEventArgs e)
@@ -244,6 +256,8 @@ namespace FamilyFeud
             button2.Text = Convert.ToString(team2Score);
             if (e.Button == MouseButtons.Right)
                 button11.Text = top7;
+
+            button11.BackColor = Color.White;
         }
 
         private void button10_MouseDown(object sender, MouseEventArgs e)
@@ -260,6 +274,8 @@ namespace FamilyFeud
             button2.Text = Convert.ToString(team2Score);
             if (e.Button == MouseButtons.Right)
                 button10.Text = top8;
+
+            button10.BackColor = Color.White;
         }
 
         private void button9_MouseDown(object sender, MouseEventArgs e)
@@ -276,6 +292,8 @@ namespace FamilyFeud
             button2.Text = Convert.ToString(team2Score);
             if (e.Button == MouseButtons.Right)
                 button9.Text = top9;
+
+            button9.BackColor = Color.White;
         }
 
         private void button8_MouseDown(object sender, MouseEventArgs e)
@@ -292,6 +310,8 @@ namespace FamilyFeud
             button2.Text = Convert.ToString(team2Score);
             if (e.Button == MouseButtons.Right)
                 button8.Text = top10;
+
+            button8.BackColor = Color.White;
         }
 
         private void label4_Click(object sender, EventArgs e)
