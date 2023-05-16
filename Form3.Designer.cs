@@ -221,6 +221,7 @@
             button8.TabIndex = 20;
             button8.Text = "10";
             button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
@@ -233,6 +234,7 @@
             button9.TabIndex = 19;
             button9.Text = "9";
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
             // 
             // button10
             // 
@@ -245,6 +247,7 @@
             button10.TabIndex = 18;
             button10.Text = "8";
             button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click;
             // 
             // button11
             // 
@@ -257,6 +260,7 @@
             button11.TabIndex = 17;
             button11.Text = "7";
             button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
             // 
             // button12
             // 
@@ -269,6 +273,7 @@
             button12.TabIndex = 16;
             button12.Text = "6";
             button12.UseVisualStyleBackColor = false;
+            button12.Click += button12_Click;
             // 
             // richTextBox1
             // 

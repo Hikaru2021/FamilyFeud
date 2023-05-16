@@ -45,6 +45,9 @@ namespace FamilyFeud
             this.top8 = top8;
             this.top9 = top9;
             this.top10 = top10;
+            richTextBox2.Text = this.team1;
+            richTextBox3.Text = this.team2;
+            richTextBox1.Text = this.question;
 
         }
 
@@ -139,6 +142,81 @@ namespace FamilyFeud
             else
             {
                 team2Score += 7;
+                flagInterchange++;
+            }
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            button12.Text = top6;
+            if (flagInterchange % 2 == 0)
+            {
+                team1Score += 6;
+                flagInterchange++;
+            }
+            else
+            {
+                team2Score += 6;
+                flagInterchange++;
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            button11.Text = top7;
+            if (flagInterchange % 2 == 0)
+            {
+                team1Score += 5;
+                flagInterchange++;
+            }
+            else
+            {
+                team2Score += 5;
+                flagInterchange++;
+            }
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            button10.Text = top8;
+            if (flagInterchange % 2 == 0)
+            {
+                team1Score += 4;
+                flagInterchange++;
+            }
+            else
+            {
+                team2Score += 4;
+                flagInterchange++;
+            }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            button9.Text = top9;
+            if (flagInterchange % 2 == 0)
+            {
+                team1Score += 3;
+                flagInterchange++;
+            }
+            else
+            {
+                team2Score += 3;
+                flagInterchange++;
+            }
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            button8.Text = top10;
+            if (flagInterchange % 2 == 0)
+            {
+                team1Score += 2;
+                flagInterchange++;
+            }
+            else
+            {
+                team2Score += 2;
                 flagInterchange++;
             }
         }
