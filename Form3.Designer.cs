@@ -171,6 +171,7 @@
             button4.Text = "2";
             button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
+            button4.MouseDown += button4_MouseDown;
             // 
             // button5
             // 

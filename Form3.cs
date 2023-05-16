@@ -66,175 +66,68 @@ namespace FamilyFeud
         private void button3_Click(object sender, EventArgs e)
         {
             button3.Text = top1;
-            if (flagInterchange % 2 == 0)
-            {
-                team1Score += 10;
-                flagInterchange++;
-
-            }
-            else
-            {
-                team2Score += 10;
-                flagInterchange++;
-            }
-            button1.Text = Convert.ToString(team1Score);
-            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             button4.Text = top2;
-            if (flagInterchange % 2 == 0)
-            {
-                team1Score += 9;
-                flagInterchange++;
-            }
-            else
-            {
-                team2Score += 9;
-                flagInterchange++;
-            }
-            button1.Text = Convert.ToString(team1Score);
-            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             button5.Text = top3;
-            if (flagInterchange % 2 == 0)
-            {
-                team1Score += 8;
-                flagInterchange++;
-            }
-            else
-            {
-                team2Score += 8;
-                flagInterchange++;
-            }
-            button1.Text = Convert.ToString(team1Score);
-            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             button6.Text = top4;
-            if (flagInterchange % 2 == 0)
-            {
-                team1Score += 8;
-                flagInterchange++;
-            }
-            else
-            {
-                team2Score += 8;
-                flagInterchange++;
-            }
-            button1.Text = Convert.ToString(team1Score);
-            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             button7.Text = top5;
-            if (flagInterchange % 2 == 0)
-            {
-                team1Score += 7;
-                flagInterchange++;
-            }
-            else
-            {
-                team2Score += 7;
-                flagInterchange++;
-            }
-            button1.Text = Convert.ToString(team1Score);
-            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
             button12.Text = top6;
-            if (flagInterchange % 2 == 0)
-            {
-                team1Score += 6;
-                flagInterchange++;
-            }
-            else
-            {
-                team2Score += 6;
-                flagInterchange++;
-            }
-            button1.Text = Convert.ToString(team1Score);
-            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
             button11.Text = top7;
-            if (flagInterchange % 2 == 0)
-            {
-                team1Score += 5;
-                flagInterchange++;
-            }
-            else
-            {
-                team2Score += 5;
-                flagInterchange++;
-            }
-            button1.Text = Convert.ToString(team1Score);
-            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
             button10.Text = top8;
-            if (flagInterchange % 2 == 0)
-            {
-                team1Score += 4;
-                flagInterchange++;
-            }
-            else
-            {
-                team2Score += 4;
-                flagInterchange++;
-            }
-            button1.Text = Convert.ToString(team1Score);
-            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
             button9.Text = top9;
-            if (flagInterchange % 2 == 0)
-            {
-                team1Score += 3;
-                flagInterchange++;
-            }
-            else
-            {
-                team2Score += 3;
-                flagInterchange++;
-            }
-            button1.Text = Convert.ToString(team1Score);
-            button2.Text = Convert.ToString(team2Score);
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             button8.Text = top10;
-            if (flagInterchange % 2 == 0)
+        }
+
+        private void button3_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
             {
-                team1Score += 2;
-                flagInterchange++;
+                team1Score += 10;
             }
             else
             {
-                team2Score += 2;
-                flagInterchange++;
+                team2Score += 10;
             }
             button1.Text = Convert.ToString(team1Score);
             button2.Text = Convert.ToString(team2Score);
         }
 
-        private void button3_MouseDown(object sender, MouseEventArgs e)
+        private void button4_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
             {
